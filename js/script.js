@@ -1,5 +1,19 @@
+let countEl = document.getElementById("count-el")
 let count = 0
 
+
+
 function increment() {
-    console.log("THE BUTTONNN WASSS CLICKEDDD")
+    count = count + 1 
+    countEl.innerText = count
+    
 }
+
+function countdown(){
+    console.log(5)
+    console.log(4)
+    console.log(3)
+    console.log(2)
+    console.log(1)
+}
+
