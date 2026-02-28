@@ -25,16 +25,33 @@ h1 {
     margin-bottom: 20px;
 }
 
-button {
+#save-btn {
     padding: 12px 24px;
     font-size: 16px;
-    background-color: #ab1428;
+    background-color: #0573f1;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 3px;
 }
 
-button:hover {
+#increment-btn{
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #c51d1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+#increment-btn:hover {
     background-color: #2980b9;
 }
+#save-btn:hover {
+    background-color: #1a6ca3;
+}
+
+
