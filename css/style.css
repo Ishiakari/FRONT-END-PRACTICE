@@ -19,10 +19,16 @@ h1 {
     margin-bottom: 10px;
 }
 
-#count_el {
+#count-el {
     font-size: 48px;
     color: #151212;
     margin-bottom: 20px;
+}
+
+#save-el {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
 }
 
 #save-btn {
@@ -36,7 +42,7 @@ h1 {
     margin: 3px;
 }
 
-#increment-btn{
+#increment-btn, #clear-btn{
     padding: 12px 24px;
     font-size: 16px;
     background-color: #c51d1d;
@@ -47,7 +53,7 @@ h1 {
     margin: 3px;
 }
 
-#increment-btn:hover {
+#increment-btn:hover, #clear-btn:hover {
     background-color: #2980b9;
 }
 #save-btn:hover {
