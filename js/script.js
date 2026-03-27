@@ -19,3 +19,13 @@ function clearAll(){
     countEl.textContent = count
     saveEl.textContent = "Previous Entries: "
 }
+let promptyng = prompt("Can i touch u?")
+
+if (promptyng.toLowerCase() === "yes"){
+    alert("YOU WANT TO BE TOUCHED!!")
+    
+}else{
+    alert("Alright")
+}
+
+
